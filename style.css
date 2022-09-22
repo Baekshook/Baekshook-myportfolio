@@ -74,11 +74,23 @@ span {
 }
 
 .myFood {
-  text-decoration: underline solid red;
+  text-decoration: underline dotted red;
 }
 
 .myMovie {
   text-decoration: underline solid purple;
+}
+
+.myLanguage {
+  text-decoration: green wavy underline;
+}
+
+.todayLunch {
+  text-decoration: purple wavy underline;
+}
+
+.aboutMe {
+  text-decoration: underline solid var(--mainColor);
 }
 
 button {

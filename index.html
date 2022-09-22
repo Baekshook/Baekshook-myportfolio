@@ -44,34 +44,45 @@
       </button>
     </div>
     <div>
-      <span class="myMovie">"What is your All-time favorite movie? 🎬"</span>
+      <span class="myMovie">"What is All-time favorite movie? 🎬"</span>
       <button
         onclick="revealMyInfo('My All-time favorite movie is AboutTime', '.myMovie', '#F0995B')"
       >
         About Time
       </button>
       <button
-        onclick="revealMyInfo('My All-time favorite movie is Interstellar', '.myMovie', '#F04731')"
+        onclick="revealMyInfo('My All-time favorite movie is Interstellar', '.myMovie', '#6E7080')"
       >
         Interstellar
       </button>
       <button
-        onclick="revealMyInfo('My All-time favorite movie is LalaLand', '.myMovie', '#F04731')"
+        onclick="revealMyInfo('My All-time favorite movie is LalaLand', '.myMovie', '#6640B8')"
       >
         Lala Land
       </button>
     </div>
     <div>
-      <span class="myLanguage">My foreign language skill is ...</span>
-      <button onclick="revealMyInfo('En ★★★☆☆', '.myLanguage', '#000000')">
+      <span class="myLanguage">My foreign language skill is ...🗣</span>
+      <button onclick="revealMyInfo('En 🇺🇸 ★★★☆☆', '.myLanguage', '#F2A529')">
         English
       </button>
-      <button onclick="revealMyInfo('Cn ★★★☆☆', '.myLanguage', '#000000')">
+      <button onclick="revealMyInfo('Cn 🇨🇳 ★★★☆☆', '.myLanguage', '#AF0101')">
         Chinese
       </button>
-      <button onclick="revealMyInfo('Jp ☆☆☆☆☆', '.myLanguage', '#000000')">
+      <button onclick="revealMyInfo('Jp 🇯🇵 ☆☆☆☆☆', '.myLanguage', '#276FE8')">
         Japanese
       </button>
+    </div>
+    <div>
+      <span class="todayLunch">오늘의 점심 메뉴는❓</span>
+      <button onclick="choiceTodayLunch()">선택❗️</button>
+    </div>
+    <div>
+      <span class="aboutMe">What do you want to know about me❓</span>
+      <button onclick="getMyProfile('age')">Age</button>
+      <button onclick="getMyProfile('job')">Job</button>
+      <button onclick="getMyProfile('favorite')">Favorite</button>
+      <button onclick="getMyProfile('motto')">Motto</button>
     </div>
     <script src="main.js"></script>
   </body>
